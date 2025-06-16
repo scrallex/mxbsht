@@ -1,0 +1,45 @@
+id = race
+torque
+{
+	numpoints = 28			
+	point0 = 0, 	1.2
+	point1 = 16, 	30
+	point2 = 33, 	35
+	point3 = 41, 	38
+	point4 = 50, 	40
+	point5 = 58, 	41
+	point6 = 66, 	42
+	point7 = 75, 	44
+	point8 = 83, 	52
+	point9 = 91, 	58
+	point10 = 100, 	61
+	point11 = 108, 	64
+	point12 = 116, 	62
+	point13 = 125,  61
+	point14 = 133, 	60
+	point15 = 141, 	62
+	point16 = 150, 	65
+	point17 = 158, 	58
+	point18 = 166, 	44
+	point19 = 175, 	38
+	point20 = 183, 	31
+	point21 = 191, 	25
+	point22 = 200, 	23
+	point23 = 208,  19
+	point24 = 216, 	16
+	point25 = 225, 	12
+	point26 = 233, 	1
+	point27 = 250,	0
+}
+brake
+{
+	numpoints = 8
+	point0 = 0, 	-0.0
+	point1 = 31, 	-1.0
+	point2 = 76, 	-2.9
+	point3 = 100, 	-6.2
+	point4 = 133, 	-9.7
+	point5 = 199, 	-15.8
+	point6 = 233, 	-18.8
+	point7 = 300, 	-22.7
+}
