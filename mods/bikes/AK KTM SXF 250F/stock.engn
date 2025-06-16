@@ -1,0 +1,45 @@
+id = stock
+torque
+{
+	numpoints = 28			
+	point0 = 0,	0
+	point1 = 16,	14
+	point2 = 33,	15
+	point3 = 41,	17
+	point4 = 50,	19
+	point5 = 58,	24
+	point6 = 66,	25
+	point7 = 75,	28
+	point8 = 83,	30
+	point9 = 91,	32
+	point10 = 100,	34
+	point11 = 108,	35
+	point12 = 116,	36
+	point13 = 125,	37
+	point14 = 133,	38.1
+	point15 = 141,	38.4
+	point16 = 150,	38.8
+	point17 = 158,	39.1
+	point18 = 166,	36
+	point19 = 175,	32
+	point20 = 183,	25
+	point21 = 191,	22
+	point22 = 200,	19
+	point23 = 208,	15
+	point24 = 216,	12
+	point25 = 225,	9
+	point26 = 233,	4
+	point27 = 250,	0
+}
+brake
+{
+	numpoints = 8
+	point0 = 0, 	-0
+	point1 = 31, 	-0.854
+	point2 = 76, 	-1.248
+	point3 = 100, 	-2.757
+	point4 = 133, 	-4.359
+	point5 = 199, 	-8.218
+	point6 = 233, 	-12.358
+	point7 = 300, 	-15.687
+}

@@ -1,0 +1,247 @@
+MaxValue = 14400.000000
+AutoPitch = 1
+Layer0
+{
+	NumSamples = 3
+	Sample0
+	{
+		Wav = fc250_onidle.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.000000  ;; 0
+			Volume = 0.900000
+		}
+		Point1
+		{
+			Value = 0.277778  ;; 4000
+			Volume = 0.900000
+		}
+		Point2
+		{
+			Value = 0.451389  ;; 6500
+			Volume = 0.000000
+		}
+		RefPitch = 0.347222  ;; 5000
+		MinPitch = 0.000000  ;; 0 (effective)
+		MaxPitch = 1.300000  ;; 6500 (effective)
+	}
+	Sample1
+	{
+		Wav = crf250r_onlowmid.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.277778  ;; 4000
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.451389  ;; 6500
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.590278  ;; 8500
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.763889  ;; 11000
+			Volume = 0.000000
+		}
+		RefPitch = 0.694444  ;; 10000
+		MinPitch = 0.400000  ;; 4000 (effective)
+		MaxPitch = 1.100000  ;; 11000 (effective)
+	}
+	Sample2
+	{
+		Wav = crf250r_onhigh.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.590278  ;; 8500
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.763889  ;; 11000
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.902778  ;; 13000
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 1.000000  ;; 14400
+			Volume = 0.700000
+		}
+		RefPitch = 0.937500  ;; 13500
+		MinPitch = 0.629630  ;; 8500 (effective)
+		MaxPitch = 1.066667  ;; 14400 (effective)
+	}
+}
+Layer1
+{
+	NumSamples = 6
+	Sample0
+	{
+		Wav = rm-z250_idle.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.000000  ;; 0
+			Volume = 0.650000
+		}
+		Point1
+		{
+			Value = 0.175000  ;; 2520
+			Volume = 0.650000
+		}
+		Point2
+		{
+			Value = 0.225000  ;; 3240
+			Volume = 0.000000
+		}
+		RefPitch = 0.192857  ;; 2777
+		MinPitch = 0.000000  ;; 0 (effective)
+		MaxPitch = 1.166667  ;; 3240 (effective)
+	}
+	Sample1
+	{
+		Wav = yz250f_offidle.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.175000  ;; 2520
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.225000  ;; 3240
+			Volume = 0.800000
+		}
+		Point2
+		{
+			Value = 0.238214  ;; 3430
+			Volume = 0.800000
+		}
+		Point3
+		{
+			Value = 0.308451  ;; 4442
+			Volume = 0.000000
+		}
+		RefPitch = 0.178571  ;; 2571
+		MinPitch = 0.980002  ;; 2520 (effective)
+		MaxPitch = 1.727330  ;; 4442 (effective)
+	}
+	Sample2
+	{
+		Wav = yz250f_offverylow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.238214  ;; 3430
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.308451  ;; 4442
+			Volume = 0.650000
+		}
+		Point2
+		{
+			Value = 0.347854  ;; 5009
+			Volume = 0.650000
+		}
+		Point3
+		{
+			Value = 0.433376  ;; 6241
+			Volume = 0.000000
+		}
+		RefPitch = 0.267857  ;; 3857
+		MinPitch = 0.889334  ;; 3430 (effective)
+		MaxPitch = 1.617938  ;; 6241 (effective)
+	}
+	Sample3
+	{
+		Wav = yz250f_offlow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.347854  ;; 5009
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.433376  ;; 6241
+			Volume = 0.600000
+		}
+		Point2
+		{
+			Value = 0.480162  ;; 6914
+			Volume = 0.600000
+		}
+		Point3
+		{
+			Value = 0.566944  ;; 8164
+			Volume = 0.000000
+		}
+		RefPitch = 0.357143  ;; 5143
+		MinPitch = 0.973991  ;; 5009 (effective)
+		MaxPitch = 1.587443  ;; 8164 (effective)
+	}
+	Sample4
+	{
+		Wav = yz250f_offmid.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.480162  ;; 6914
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.566944  ;; 8164
+			Volume = 0.600000
+		}
+		Point2
+		{
+			Value = 0.645369  ;; 9293
+			Volume = 0.600000
+		}
+		Point3
+		{
+			Value = 0.743914  ;; 10712
+			Volume = 0.000000
+		}
+		RefPitch = 0.421429  ;; 6069
+		MinPitch = 1.139367  ;; 6914 (effective)
+		MaxPitch = 1.765220  ;; 10712 (effective)
+	}
+	Sample5
+	{
+		Wav = yz250f_offveryhigh.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.645369  ;; 9293
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.743914  ;; 10712
+			Volume = 0.550000
+		}
+		Point2
+		{
+			Value = 1.000000  ;; 14400
+			Volume = 0.550000
+		}
+		RefPitch = 0.571429  ;; 8229
+		MinPitch = 1.129396  ;; 9293 (effective)
+		MaxPitch = 1.750000  ;; 14400 (effective)
+	}
+}

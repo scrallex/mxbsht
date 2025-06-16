@@ -1,0 +1,25 @@
+bump
+{
+	map =  bars_n.tga
+	repetitions = 1
+}
+
+specular
+{      
+	map =  bars_r.tga
+	shininess = 88
+
+}
+
+reflection
+{
+	factormin = 0.01
+	factormax = 0.1
+	factorexp = 1
+	envmap = env/env.tga
+	map =  bars_r.tga
+}
+alpha
+{
+	map = bars.tga
+}

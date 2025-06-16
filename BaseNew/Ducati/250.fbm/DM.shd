@@ -1,0 +1,27 @@
+bump
+{
+	map =  DM_n.dds
+	repetitions = 1
+}
+
+specular
+{      
+	map =  DM_s.dds
+	shininess = 50
+
+}
+
+reflection
+{
+	factormin = 0.01
+	factormax = 0.1
+	factorexp = 1
+	envmap = env/env.tga
+	map =  DM_r.dds
+}
+
+alpha
+{
+	map =  DM.dds
+	repetitions = 1
+}

@@ -1,0 +1,25 @@
+bump
+{
+	map =  bike_n.tga
+	repetitions = 1
+}
+
+specular
+{      
+	map =  bike_r.tga
+	shininess = 88
+
+}
+
+reflection
+{
+	factormin = 0.01
+	factormax = 0.1
+	factorexp = 1
+	envmap = env/env.tga
+	map =  bike_r.tga
+}
+alpha
+{
+	map = bike.tga
+}

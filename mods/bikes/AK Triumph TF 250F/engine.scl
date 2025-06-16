@@ -1,0 +1,298 @@
+MaxValue = 14000.000000
+AutoPitch = 1
+Layer0
+{
+	NumSamples = 5
+	Sample0
+	{
+		Wav = JG450_onidle.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.000000  ;; 0
+			Volume = 0.800000
+		}
+		Point1
+		{
+			Value = 0.214286  ;; 3000
+			Volume = 0.800000
+		}
+		Point2
+		{
+			Value = 0.306452  ;; 4290
+			Volume = 0.000000
+		}
+		RefPitch = 0.220000  ;; 3080
+		MinPitch = 0.000000  ;; 0 (effective)
+		MaxPitch = 1.392964  ;; 4290 (effective)
+	}
+	Sample1
+	{
+		Wav = JG450_onverylow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.214286  ;; 3000
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.306452  ;; 4290
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.401929  ;; 5627
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.487643  ;; 6827
+			Volume = 0.000000
+		}
+		RefPitch = 0.500000  ;; 7000
+		MinPitch = 0.428572  ;; 3000 (effective)
+		MaxPitch = 0.975286  ;; 6827 (effective)
+	}
+	Sample2
+	{
+		Wav = JG450_onlow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.401929  ;; 5627
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.487643  ;; 6827
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.583071  ;; 8163
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.668786  ;; 9363
+			Volume = 0.000000
+		}
+		RefPitch = 0.642857  ;; 9000
+		MinPitch = 0.625223  ;; 5627 (effective)
+		MaxPitch = 1.040334  ;; 9363 (effective)
+	}
+	Sample3
+	{
+		Wav = JG450_onmid.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.583071  ;; 8163
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.668786  ;; 9363
+			Volume = 1.200000
+		}
+		Point2
+		{
+			Value = 0.771429  ;; 10800
+			Volume = 1.200000
+		}
+		Point3
+		{
+			Value = 0.857143  ;; 12000
+			Volume = 0.000000
+		}
+		RefPitch = 0.750000  ;; 10500
+		MinPitch = 0.777428  ;; 8163 (effective)
+		MaxPitch = 1.119048  ;; 11750 (effective)
+	}
+	Sample4
+	{
+		Wav = JG450_onhigh.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.771429  ;; 10800
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.857143  ;; 12000
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 1.000000  ;; 14000
+			Volume = 1.000000
+		}
+		RefPitch = 0.857143  ;; 12000
+		MinPitch = 0.900000  ;; 10800 (effective)
+		MaxPitch = 1.166667  ;; 14000 (effective)
+	}
+}
+Layer1
+{
+	NumSamples = 6
+	Sample0
+	{
+		Wav = JG450_idle.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.000000  ;; 0
+			Volume = 0.700000
+		}
+		Point1
+		{
+			Value = 0.175000  ;; 2450
+			Volume = 0.700000
+		}
+		Point2
+		{
+			Value = 0.225000  ;; 3150
+			Volume = 0.000000
+		}
+		RefPitch = 0.192857  ;; 2700
+		MinPitch = 0.000000  ;; 0 (effective)
+		MaxPitch = 1.166667  ;; 3150 (effective)
+	}
+	Sample1
+	{
+		Wav = JG450_offidle.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.175000  ;; 2450
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.225000  ;; 3150
+			Volume = 0.850000
+		}
+		Point2
+		{
+			Value = 0.238214  ;; 3335
+			Volume = 0.850000
+		}
+		Point3
+		{
+			Value = 0.308451  ;; 4318
+			Volume = 0.000000
+		}
+		RefPitch = 0.178571  ;; 2500
+		MinPitch = 0.980002  ;; 2450 (effective)
+		MaxPitch = 1.727330  ;; 4318 (effective)
+	}
+	Sample2
+	{
+		Wav = JG450_offverylow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.238214  ;; 3335
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.308451  ;; 4318
+			Volume = 0.700000
+		}
+		Point2
+		{
+			Value = 0.347854  ;; 4870
+			Volume = 0.700000
+		}
+		Point3
+		{
+			Value = 0.433376  ;; 6067
+			Volume = 0.000000
+		}
+		RefPitch = 0.267857  ;; 3750
+		MinPitch = 0.889334  ;; 3335 (effective)
+		MaxPitch = 1.617938  ;; 6067 (effective)
+	}
+	Sample3
+	{
+		Wav = JG450_offlow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.347854  ;; 4870
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.433376  ;; 6067
+			Volume = 0.650000
+		}
+		Point2
+		{
+			Value = 0.480162  ;; 6722
+			Volume = 0.650000
+		}
+		Point3
+		{
+			Value = 0.566944  ;; 7937
+			Volume = 0.000000
+		}
+		RefPitch = 0.357143  ;; 5000
+		MinPitch = 0.973991  ;; 4870 (effective)
+		MaxPitch = 1.587443  ;; 7937 (effective)
+	}
+	Sample4
+	{
+		Wav = JG450_offmid.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.480162  ;; 6722
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.566944  ;; 7937
+			Volume = 0.650000
+		}
+		Point2
+		{
+			Value = 0.645369  ;; 9035
+			Volume = 0.650000
+		}
+		Point3
+		{
+			Value = 0.743914  ;; 10415
+			Volume = 0.000000
+		}
+		RefPitch = 0.421429  ;; 5900
+		MinPitch = 1.139367  ;; 6722 (effective)
+		MaxPitch = 1.765220  ;; 10415 (effective)
+	}
+	Sample5
+	{
+		Wav = JG450_offveryhigh.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.645369  ;; 9035
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.743914  ;; 10415
+			Volume = 0.650000
+		}
+		Point2
+		{
+			Value = 1.000000  ;; 14000
+			Volume = 0.650000
+		}
+		RefPitch = 0.571429  ;; 8000
+		MinPitch = 1.129396  ;; 9035 (effective)
+		MaxPitch = 1.750000  ;; 14000 (effective)
+	}
+}

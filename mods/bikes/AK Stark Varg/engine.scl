@@ -1,0 +1,66 @@
+MaxValue = 7000.000000
+AutoPitch = 1
+Layer0
+{
+	NumSamples = 1
+	sample0
+	{
+		wav = transwhine_onload.wav
+		NumPoints = 4
+		point0
+		{
+			Value = 0.000000
+			Volume = 0.000000
+		}
+		point1
+		{
+			Value = 0.050000
+			Volume = 0.000000
+		}
+		point2
+		{
+			Value = 0.400000
+			Volume = 6.500000
+		}
+		point3
+		{
+			Value = 1.000000
+			Volume = 6.500000
+		}
+		RefPitch = 0.416667
+		MinPitch = 0.000000
+		MaxPitch = 1.500000
+	}
+}
+Layer1
+{
+	NumSamples = 1
+	sample0
+	{
+		wav = transwhine_offload.wav
+		NumPoints = 4
+		point0
+		{
+			Value = 0.050000
+			Volume = 0.000000
+		}
+		point1
+		{
+			Value = 0.050000
+			Volume = 0.000000
+		}
+		point2
+		{
+			Value = 0.400000
+			Volume = 6.500000
+		}
+		point3
+		{
+			Value = 1.000000
+			Volume = 6.500000
+		}
+		RefPitch = 0.416667
+		MinPitch = 0.120000
+		MaxPitch = 2.000000
+	}
+}

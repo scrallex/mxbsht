@@ -1,0 +1,8 @@
+numlayers=1
+layer1
+{
+   numframes = 3
+   frame0=mud1.tga
+   frame1=mud2.tga
+   frame2=mud3.tga
+}

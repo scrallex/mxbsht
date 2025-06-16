@@ -1,0 +1,25 @@
+bump
+{
+	map =  pipes_n.tga
+	repetitions = 1
+}
+
+specular
+{      
+	map =  pipes_r.tga
+	shininess = 88
+
+}
+
+reflection
+{
+	factormin = 0.01
+	factormax = 0.1
+	factorexp = 1
+	envmap = env/env.tga
+	map =  pipes_r.tga
+}
+alpha
+{
+	map = pipes.tga
+}

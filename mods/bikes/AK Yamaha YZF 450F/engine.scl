@@ -1,0 +1,293 @@
+MaxValue = 14000.000000
+AutoPitch = 1
+Layer0
+{
+	NumSamples = 5
+	Sample0
+	{
+		Wav = v2_yz250f_onidle.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.000000  ;; 0
+			Volume = 1.000000
+		}
+		Point1
+		{
+			Value = 0.203571  ;; 2850
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.296429  ;; 4150
+			Volume = 0.000000
+		}
+		RefPitch = 0.235714  ;; 3300
+		MinPitch = 0.000000  ;; 0 (effective)
+		MaxPitch = 1.257577  ;; 4150 (effective)
+	}
+	Sample1
+	{
+		Wav = v2_yz250f_onverylow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.203571  ;; 2850
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.296429  ;; 4150
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.346429  ;; 4850
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.453571  ;; 6350
+			Volume = 0.000000
+		}
+		RefPitch = 0.605500  ;; 8477
+		MinPitch = 0.336204  ;; 2850 (effective)
+		MaxPitch = 0.749085  ;; 6350 (effective)
+	}
+	Sample2
+	{
+		Wav = v2_yz250f_onlow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.346429  ;; 4850
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.453571  ;; 6350
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.539286  ;; 7550
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.646429  ;; 9050
+			Volume = 0.000000
+		}
+		RefPitch = 0.715357  ;; 10015
+		MinPitch = 0.484274  ;; 4850 (effective)
+		MaxPitch = 0.903645  ;; 9050 (effective)
+	}
+	Sample3
+	{
+		Wav = v2_yz250f_onmid.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.539286  ;; 7550
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.646429  ;; 9050
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.732143  ;; 10250
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.839286  ;; 11750
+			Volume = 0.000000
+		}
+		RefPitch = 0.669500  ;; 9373
+		MinPitch = 0.805506  ;; 7550 (effective)
+		MaxPitch = 1.253601  ;; 11750 (effective)
+	}
+	Sample4
+	{
+		Wav = v2_yz250f_onhigh.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.732143  ;; 10250
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.839286  ;; 11750
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 1.000000  ;; 14000
+			Volume = 1.000000
+		}
+		RefPitch = 0.924143  ;; 12938
+		MinPitch = 0.792240  ;; 10250 (effective)
+		MaxPitch = 1.082084  ;; 14000 (effective)
+	}
+}
+Layer1
+{
+	NumSamples = 6
+	Sample0
+	{
+		Wav = v2_yz250f_idle.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.000000  ;; 0
+			Volume = 0.800000
+		}
+		Point1
+		{
+			Value = 0.164286  ;; 2300
+			Volume = 0.800000
+		}
+		Point2
+		{
+			Value = 0.223929  ;; 3135
+			Volume = 0.000000
+		}
+		RefPitch = 0.164286  ;; 2300
+		MinPitch = 0.000000  ;; 0 (effective)
+		MaxPitch = 1.363046  ;; 3135 (effective)
+	}
+	Sample1
+	{
+		Wav = YZ250F_offidle.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.178467  ;; 2499
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.223895  ;; 3135
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.308451  ;; 4318
+			Volume = 0.000000
+		}
+		RefPitch = 0.250000  ;; 3500
+		MinPitch = 0.713868  ;; 2499 (effective)
+		MaxPitch = 1.233804  ;; 4318 (effective)
+	}
+	Sample2
+	{
+		Wav = YZ250F_offverylow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.223895  ;; 3135
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.308451  ;; 4318
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.347854  ;; 4870
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.433376  ;; 6067
+			Volume = 0.000000
+		}
+		RefPitch = 0.318500  ;; 4459
+		MinPitch = 0.702967  ;; 3135 (effective)
+		MaxPitch = 1.360678  ;; 6067 (effective)
+	}
+	Sample3
+	{
+		Wav = YZ250F_offlow.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.347854  ;; 4870
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.433376  ;; 6067
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.480162  ;; 6722
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.566944  ;; 7937
+			Volume = 0.000000
+		}
+		RefPitch = 0.387143  ;; 5420
+		MinPitch = 0.898516  ;; 4870 (effective)
+		MaxPitch = 1.464431  ;; 7937 (effective)
+	}
+	Sample4
+	{
+		Wav = YZ250F_offmid.wav
+		NumPoints = 4
+		Point0
+		{
+			Value = 0.480162  ;; 6722
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.566944  ;; 7937
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 0.645369  ;; 9035
+			Volume = 1.000000
+		}
+		Point3
+		{
+			Value = 0.743914  ;; 10415
+			Volume = 0.000000
+		}
+		RefPitch = 0.447786  ;; 6269
+		MinPitch = 1.072303  ;; 6722 (effective)
+		MaxPitch = 1.661317  ;; 10415 (effective)
+	}
+	Sample5
+	{
+		Wav = YZ250F_offhigh.wav
+		NumPoints = 3
+		Point0
+		{
+			Value = 0.645369  ;; 9035
+			Volume = 0.000000
+		}
+		Point1
+		{
+			Value = 0.743914  ;; 10415
+			Volume = 1.000000
+		}
+		Point2
+		{
+			Value = 1.000000  ;; 14000
+			Volume = 1.000000
+		}
+		RefPitch = 0.512786  ;; 7179
+		MinPitch = 1.258555  ;; 9035 (effective)
+		MaxPitch = 1.950132  ;; 14000 (effective)
+	}
+}

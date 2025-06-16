@@ -1,0 +1,40 @@
+id = 450K
+torque
+{
+	numpoints = 28
+	point0 = 0, 	57
+	point1 = 16, 	57
+	point2 = 33, 	57
+	point3 = 41, 	57
+	point4 = 50, 	57
+	point5 = 58, 	57
+	point6 = 66, 	57
+	point7 = 75, 	57
+	point8 = 83, 	57
+	point9 = 91, 	52
+	point10 = 100, 	49
+	point11 = 108, 	46
+	point12 = 116, 	43
+	point13 = 125,  39
+	point14 = 133, 	36
+	point15 = 141, 	33
+	point16 = 150, 	31
+	point17 = 158, 	29
+	point18 = 166, 	27
+	point19 = 175, 	25
+	point20 = 183, 	23
+	point21 = 191, 	22
+	point22 = 200, 	21
+	point23 = 208,  19
+	point24 = 216, 	18
+	point25 = 225, 	16
+	point26 = 233, 	13
+	point27 = 250,	0
+}
+brake
+{
+	numpoints = 3
+	point0 = 0.000000, 0.000000
+	point1 = 125.027786, -8.684042
+	point2 = 250.000000, -30.000000
+}

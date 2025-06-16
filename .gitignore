@@ -1,0 +1,52 @@
+# Build artifacts
+*.pkz
+*.zip
+*.rar
+*.7z
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Game-specific files to ignore
+*.log
+*.dmp
+cache/
+saves/
+
+# Distribution folder
+dist/
+
+# Artwork files
+*.blend*
+*.fbx
+*.edf
+*.psd
+*.dds
+*.tga
+*.pnt
+*.bin
+*.wav
+*.asd
+!sounds/
+*.exe
+
+model_*.edf
+model.edf
+model_shadow.edf
+
+# Keep UTF files
+!*.utf

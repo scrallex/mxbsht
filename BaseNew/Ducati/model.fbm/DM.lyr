@@ -1,0 +1,8 @@
+numlayers=1
+layer1
+{
+   numframes = 3
+   frame0=mud1.dds
+   frame1=mud2.dds
+   frame2=mud3.dds
+}
